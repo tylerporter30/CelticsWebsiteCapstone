@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="main.css" rel="stylesheet">
+    <title>Contact Boston Celtics Fan Page</title>
+
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Menu 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="index.php">Home</a>
+                <a href="about.html">About</a>
+                <a href="atlanticDivision.html">Division</a>
+                <a href="roster.html">Roster</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="login.php">Account</a>
+            </div>
+        </div> 
+    </div>
+
+    <h1>Contact Us!</h1>
+    <div role="img" aria-label="Boston Celtics logo">
+        <img src="Boston_Celtics_logo.png" alt="Boston Celtics logo" class="center"></a>
+    </div>
+    
+    <form id ="contact-form" method = "post" action = "contactForm.php">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <label for = "FullNname"> Full Name:</label>
+          <input type = "text" Last Name, First = "FullName" id = "FullNname"
+          required = "required">
+    <br>
+    <br>
+        <label for = "Email"> Email:</label>
+        <input type = "email" Email = "Email" id = "Email"
+         required = "required">
+        </fieldset>
+    <br>
+        <fieldset>
+            <legend> Comments </legend>
+            <textarea name = "Message" id = "Message" row = "10" cols = "60"></textarea>
+        </fieldset>
+        <input type = "reset" class = "formButton" value = "Clear">
+        <input type = "submit" class = "formButton" value = "Send">
+    </form>
+</body>
+
+</html>
